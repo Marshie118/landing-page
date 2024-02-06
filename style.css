@@ -1,0 +1,26 @@
+/* Global =======================================================================*/
+* {
+    /* outline: 2px solid red; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    outline: 5px solid red;
+    min-height: 100vh;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+/* Header section ====================================================================== */
+.header.container {
+    outline: 2px solid purple;
+}
+
