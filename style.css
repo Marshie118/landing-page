@@ -10,13 +10,15 @@
 .webpage-wrapper {
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
+    width: 1440px;
     height: 1912px;
     margin: auto;
 }
 
 .container {
     display: flex;
+    height: 25%;
+    width: 1440px;
     flex: 1;
 }
 /* Header section ====================================================================== */
@@ -73,11 +75,55 @@
     color: #e5e7eb;
 }
 
-.awsome {
+.title {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
 }
+
+.signup-button {
+    padding: 5px;
+    padding-inline: 20px;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 5px;
+    color: #e5e7eb;
+    font-weight: bold;
+    background-color: #3882f6;
+}
+/* Information section ===============================================*/
+
+/*quote section=======================================================*/
+
+.quote.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding-inline: 250PX;
+}
+
+.review {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.watch-blog {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-right:100PX;
+}
+
+
+
+
+
+
+
+
 
 
 
